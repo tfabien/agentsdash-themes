@@ -10,7 +10,7 @@
     "palette"
   ],
   "author": "standup-bot",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "colors": {
     "SCREEN": "#141a23",
     "BAR": "#202b3b",
