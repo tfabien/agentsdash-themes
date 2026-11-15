@@ -5,7 +5,7 @@ A focused Marketplace collection for Standup Bot. Each core theme is polished fo
 | Preview | Theme | Format | Showcase |
 |---|---|---|---|
 | ![Robot](robot/preview.png) | **Robot** | PNG sprites | Default pixel-art experience |
-| ![Robot Line](robot-line/preview.png) | **Robot Line** | SVG | Runtime accent tint and color variants |
+| ![Robot Soft](robot-line/preview.png) | **Robot Soft** | SVG | Rounded role avatars, accent tint and working blinks |
 | ![Office](office/preview.png) | **Office** | Lossless WebP | Localized hair palette swaps |
 | ![Office Retro](office-retro/preview.png) | **Office Retro** | PNG sprites | Retro pixel-art alternative |
 | ![Cat Minimal](cat-minimal/preview.png) | **Cat Minimal** | PNG sprites | Three complete, small-screen cat looks |
@@ -15,6 +15,7 @@ A focused Marketplace collection for Standup Bot. Each core theme is polished fo
 
 - **Variants** change interface colors and, when supported, the theme accent.
 - **Looks** change character rendering independently of the interface variant.
+- **Blink frames** add a short working blink using an optional role-specific sprite.
 - **SVG tint** uses `currentColor` with `icons/pack.json`.
 - **Palette swaps** replace exact raster colors defined in `icons/pack.json`.
 - **Sprite looks** select complete alternate role sprites through `look.sprite`.

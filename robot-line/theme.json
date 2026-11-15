@@ -1,30 +1,31 @@
 {
   "name": "robot-line",
-  "label": "Robot Line",
-  "description": "Tintable SVG robot mascots with crisp outlines and selectable accents.",
+  "label": "Robot Soft",
+  "description": "Rounded line-art robots with soft accent colors and a quiet blink while working.",
   "keywords": [
     "robot",
     "line",
-    "minimal"
+    "minimal",
+    "animated"
   ],
   "author": "Custom",
-  "version": "1.3.0",
-  "accent": "#58c2d8",
+  "version": "2.0.0",
+  "accent": "#898CFA",
   "colors": {
-    "SCREEN": "#1B2D40",
-    "BAR": "#23394C",
-    "FRAME": "#365268",
-    "PANEL": "#23394C",
-    "ROW": "#293F53",
-    "TEXT": "#E1F1F7",
-    "LIGHT": "#B4D9E9",
-    "FAINT": "#8AAFC2",
-    "ACCENT": "#5BBDEB",
+    "SCREEN": "#0E141D",
+    "BAR": "#111924",
+    "FRAME": "#273347",
+    "PANEL": "#141E2B",
+    "ROW": "#1A2737",
+    "TEXT": "#EAF0F8",
+    "LIGHT": "#B9C7DA",
+    "FAINT": "#8D9EB5",
+    "ACCENT": "#898CFA",
     "WORKING": "#5BBDEB"
   },
   "variants": {
     "light": {
-      "label": "Light",
+      "label": "Paper",
       "colors": {
         "SCREEN": "#F4F8FB",
         "BAR": "#E4EDF3",
@@ -35,7 +36,7 @@
         "LIGHT": "#3B5262",
         "FAINT": "#526B7C"
       },
-      "accent": "#168AAD"
+      "accent": "#5659BC"
     },
     "violet": {
       "label": "Violet",
@@ -45,7 +46,28 @@
     "amber": {
       "label": "Amber",
       "colors": {},
-      "accent": "#F6B84A"
+      "accent": "#FFAF55"
+    },
+    "mint": {
+      "label": "Mint",
+      "colors": {},
+      "accent": "#43C7B9"
     }
-  }
+  },
+  "looks": {
+    "classic": {
+      "label": "Classic"
+    },
+    "ember": {
+      "label": "Ember",
+      "accent": "#FFAF55"
+    },
+    "mint": {
+      "label": "Mint",
+      "accent": "#43C7B9"
+    }
+  },
+  "defaultLooks": [
+    "classic"
+  ]
 }
