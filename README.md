@@ -10,7 +10,7 @@ Themes for the [agentsdash](https://github.com/tfabien/agentsdash) page, install
 | ![Office Retro](office-retro/preview.png) | **Office Retro** | PNG sprites | Retro pixel-art alternative |
 | ![Cat Minimal](cat-minimal/preview.png) | **Cat Minimal** | PNG sprites | Three complete, small-screen cat looks |
 | ![Fantasy RPG](fantasy-rpg/preview.png) | **Fantasy RPG** | PNG sprites | Five genuinely different character teams |
-| ![Musicians](musicians/preview.webp) | **Musicians** | PNG sprites | 48 performers across six selectable musical genres |
+| ![Musicians](musicians/preview.webp) | **Musicians** | Animated WebP | 48 performers, six musical genres and intermittent instrument-playing animations |
 
 ## Theme capabilities
 

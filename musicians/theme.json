@@ -1,7 +1,7 @@
 {
   "name": "musicians",
   "label": "Musicians",
-  "description": "Six musical genres, 48 individual pixel-art characters across eight agent roles.",
+  "description": "Six musical ensembles with 48 animated pixel-art musicians and natural pauses between performances.",
   "keywords": [
     "music",
     "musicians",
@@ -13,7 +13,7 @@
     "country"
   ],
   "author": "AgentsDash",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "colors": {
     "SCREEN": "#161625",
     "BAR": "#25243A",
