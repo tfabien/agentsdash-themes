@@ -1,6 +1,6 @@
-# Standup Bot Themes
+# agentsdash themes
 
-A focused Marketplace collection for Standup Bot. Each core theme is polished for small screens and demonstrates a different rendering capability.
+Themes for the [agentsdash](https://github.com/tfabien/agentsdash) page, installed from its Marketplace tab. Each core theme is polished for small screens and demonstrates a different rendering capability.
 
 | Preview | Theme | Format | Showcase |
 |---|---|---|---|
@@ -28,6 +28,9 @@ A focused Marketplace collection for Standup Bot. Each core theme is polished fo
 <theme>/icons/pack.json                    # optional rendering metadata
 <theme>/icons/<role>[-N][-blink].<format>
 archive/                                   # preserved, not published
+docs/                                      # format reference and creation guide
+.claude/skills/create-agentsdash-theme/    # skill for AI assistants
+tools/check.mjs                            # marketplace validator
 ```
 
 The active roles are `lead`, `general`, `explore`, `plan`, `review`, `test`, `code`, and `generic`. The `archive/` directory preserves former themes and source assets but is excluded from Marketplace validation.
@@ -38,4 +41,16 @@ Run the collection checker before submitting changes:
 node tools/check.mjs
 ```
 
-See [install.md](install.md) for installation notes and [docs/format.md](docs/format.md) for the full theme, icon pack, looks, accent, and palette-swap format.
+## Documentation
+
+- [install.md](install.md): install from the Marketplace, by API or by hand.
+- [docs/create-theme.md](docs/create-theme.md): specification of a new theme (files, `theme.json`, colors, contrast, role pictures, art rules, checks).
+- [docs/format.md](docs/format.md): full reference of what the hub accepts (variants, looks, accent, tint modes, palette swaps).
+
+## Generate a theme with an AI assistant
+
+The skill [`.claude/skills/create-agentsdash-theme/SKILL.md`](.claude/skills/create-agentsdash-theme/SKILL.md) holds the whole specification and a step-by-step procedure in one file.
+
+- Claude Code loads it on its own inside a clone of this repository. Ask "create an agentsdash theme about pirates". Copy the folder to `~/.claude/skills/` to use it everywhere.
+- Claude.ai takes the folder as an uploaded skill (zip it first).
+- ChatGPT and other assistants take `SKILL.md` as project instructions, a custom GPT's instructions or an attached file.
