@@ -1,0 +1,96 @@
+{
+  "name": "musicians",
+  "label": "Musicians",
+  "description": "Six musical ensembles with eight distinct agent roles each: Rock, Classical, K-Pop, Jazz, Disco/Funk and Country/Folk.",
+  "keywords": [
+    "music",
+    "pixel",
+    "rock",
+    "jazz",
+    "kpop",
+    "classical",
+    "disco",
+    "country"
+  ],
+  "author": "AgentsDash",
+  "version": "1.0.0",
+  "colors": {
+    "SCREEN": "#171629",
+    "BAR": "#242138",
+    "PANEL": "#242138",
+    "ROW": "#302943",
+    "FRAME": "#685c8d",
+    "ACCENT": "#f0b66b",
+    "TEXT": "#f7f0fc",
+    "LIGHT": "#d3c6e8",
+    "FAINT": "#a59aba",
+    "WORKING": "#7ed9c5"
+  },
+  "variants": {
+    "stage": {
+      "label": "Stage",
+      "colors": {
+        "SCREEN": "#171629",
+        "ACCENT": "#f0b66b"
+      }
+    },
+    "neon": {
+      "label": "Neon",
+      "colors": {
+        "SCREEN": "#15152c",
+        "BAR": "#292447",
+        "PANEL": "#292447",
+        "ACCENT": "#f48ccf",
+        "FRAME": "#9c6bc6"
+      }
+    },
+    "studio": {
+      "label": "Studio",
+      "colors": {
+        "SCREEN": "#f5f0e7",
+        "BAR": "#e7dfd3",
+        "PANEL": "#e7dfd3",
+        "ROW": "#dcd1c2",
+        "FRAME": "#907e72",
+        "TEXT": "#332d37",
+        "LIGHT": "#615866",
+        "FAINT": "#796e78",
+        "ACCENT": "#a56d46"
+      }
+    }
+  },
+  "looks": {
+    "rock": {
+      "label": "Rock",
+      "sprite": 1
+    },
+    "classical": {
+      "label": "Classical",
+      "sprite": 2
+    },
+    "kpop": {
+      "label": "K-Pop",
+      "sprite": 3
+    },
+    "jazz": {
+      "label": "Jazz",
+      "sprite": 4
+    },
+    "disco": {
+      "label": "Disco / Funk",
+      "sprite": 5
+    },
+    "country": {
+      "label": "Country / Folk",
+      "sprite": 6
+    }
+  },
+  "defaultLooks": [
+    "rock",
+    "classical",
+    "kpop",
+    "jazz",
+    "disco",
+    "country"
+  ]
+}
