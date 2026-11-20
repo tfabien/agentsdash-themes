@@ -1,0 +1,87 @@
+{
+  "name": "musicians",
+  "label": "Musicians",
+  "description": "Six musical genres, 48 individual pixel-art characters across eight agent roles.",
+  "keywords": [
+    "music",
+    "musicians",
+    "pixel",
+    "rock",
+    "classical",
+    "kpop",
+    "jazz",
+    "country"
+  ],
+  "author": "AgentsDash",
+  "version": "1.0.0",
+  "colors": {
+    "SCREEN": "#161625",
+    "BAR": "#25243A",
+    "FRAME": "#706589",
+    "PANEL": "#27263D",
+    "ROW": "#323048",
+    "TEXT": "#F7F2FA",
+    "LIGHT": "#D8D0E4",
+    "FAINT": "#AC9FBF",
+    "ACCENT": "#F8BD7C",
+    "WORKING": "#85DFC2"
+  },
+  "variants": {
+    "neon": {
+      "label": "Neon Stage",
+      "colors": {
+        "ACCENT": "#EF8FD6",
+        "FRAME": "#A67DD7",
+        "SCREEN": "#15152C"
+      }
+    },
+    "warm": {
+      "label": "Warm Studio",
+      "colors": {
+        "SCREEN": "#F7F0E5",
+        "BAR": "#E6DDCE",
+        "PANEL": "#E6DDCE",
+        "ROW": "#DAD0C0",
+        "FRAME": "#A18C78",
+        "TEXT": "#312837",
+        "LIGHT": "#564858",
+        "FAINT": "#746778",
+        "ACCENT": "#A66D42"
+      }
+    }
+  },
+  "looks": {
+    "rock": {
+      "label": "Rock",
+      "sprite": 1
+    },
+    "classical": {
+      "label": "Classical",
+      "sprite": 2
+    },
+    "kpop": {
+      "label": "K-Pop",
+      "sprite": 3
+    },
+    "jazz": {
+      "label": "Jazz",
+      "sprite": 4
+    },
+    "disco-funk": {
+      "label": "Disco / Funk",
+      "sprite": 5
+    },
+    "country-folk": {
+      "label": "Country / Folk",
+      "sprite": 6
+    }
+  },
+  "defaultLooks": [
+    "rock",
+    "classical",
+    "kpop",
+    "jazz",
+    "disco-funk",
+    "country-folk"
+  ]
+}
